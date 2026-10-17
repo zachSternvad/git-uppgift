@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Git-uppgift</title>
+</head>
+
+<body>
+    <h1>Git-uppgift</h1>
+    <p id="namn"></p>
+    <p id="summa"></p>
+    <p id="status"></p>
+    <script>
+        // TODO 1: Returnera ditt eget namn (just nu returneras "TODO").
+        function hamtaNamn() {
+            return "TODO";
+        }
+
+        // TODO 2: Returnera summan av a och b (just nu returneras alltid 0).
+        function addera(a, b) {
+            return 0;
+        }
+
+        // TODO 3: Returnera "ok" om talet är större än 10, annars "för låg".
+        function statusForTal(tal) {
+            return "TODO";
+        }
+
+        document.getElementById("namn").textContent = hamtaNamn();
+        const summa = addera(7, 5);
+        document.getElementById("summa").textContent = "Summa: " + summa;
+        document.getElementById("status").textContent = statusForTal(summa);
+    </script>
+</body>
+
+</html>
