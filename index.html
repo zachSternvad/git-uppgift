@@ -20,9 +20,11 @@
             return a + b;
         }
 
-        // TODO 3: Returnera "ok" om talet är större än 10, annars "för låg".
         function statusForTal(tal) {
-            return "TODO";
+            if (tal > 10) {
+                return "ok";
+            }
+            return "för låg";
         }
 
         document.getElementById("namn").textContent = hamtaNamn();
